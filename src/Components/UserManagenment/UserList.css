@@ -1,0 +1,52 @@
+/* UserManagement.css */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .add-user-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form input,
+  .add-user-form select,
+  .add-user-form button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .user-list li > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .user-list li > div > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-list li button {
+    margin-left: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
